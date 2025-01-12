@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmpEra - The New Era of Technology</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="AmpEra Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#technology">Technology</a></li>
+                    <li><a href="#faq">FAQs</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>The New Era of Technology</h1>
+            <p>Biodegradable body heat-powered batteries and more. Charge your devices with your own energy.</p>
+            <a href="#products" class="cta">Discover Our Products</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About AmpEra</h2>
+            <p>AmpEra is revolutionizing the tech industry with sustainable products that use your body heat to charge. Created by Nandakishor, our mission is to create innovative, eco-friendly devices that power your life.</p>
+            <div class="founder-info">
+                <img src="nandakishor.jpg" alt="Nandakishor">
+                <p><strong>Nandakishor</strong> - Founder and visionary behind AmpEra.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 AmpEra | Powered by Body Heat</p>
+            <div class="social-media">
+                <a href="https://twitter.com/AmpEra">Twitter</a>
+                <a href="https://facebook.com/AmpEra">Facebook</a>
+                <a href="https://instagram.com/AmpEra">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+products.html (Products Page)
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmpEra Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="AmpEra Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="technology.html">Technology</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="products" class="product-list">
+        <div class="container">
+            <h2>Our Products</h2>
+
+            <div class="product">
+                <img src="battery.jpg" alt="Body Heat Battery">
+                <h3>Biodegradable Body Heat Battery</h3>
+                <p>Our eco-friendly body heat battery uses your natural warmth to generate power. No need for external charging!</p>
+                <p><strong>Price:</strong> $99.99</p>
+                <a href="buy.html" class="cta">Buy Now</a>
+            </div>
+
+            <div class="product">
+                <img src="phone-case.jpg" alt="Phone Case Power Bank">
+                <h3>Phone Case Power Bank</h3>
+                <p>Power your phone directly from your body heat. A perfect blend of sustainability and convenience.</p>
+                <p><strong>Price:</strong> $59.99</p>
+                <a href="buy.html" class="cta">Buy Now</a>
+            </div>
+
+            <div class="product">
+                <img src="mouse.jpg" alt="Eco-Friendly Mouse">
+                <h3>Eco-Friendly Mouse</h3>
+                <p>Charge your mouse through body heat while keeping your workspace clean and green!</p>
+                <p><strong>Price:</strong> $39.99</p>
+                <a href="buy.html" class="cta">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 AmpEra | Powered by Body Heat</p>
+            <div class="social-media">
+                <a href="https://twitter.com/AmpEra">Twitter</a>
+                <a href="https://facebook.com/AmpEra">Facebook</a>
+                <a href="https://instagram.com/AmpEra">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+2. CSS Styling (style.css):
+css
+Copy code
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+    width: 150px;
+    display: inline-block;
+}
+
+header nav {
+    display: inline-block;
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Times New Roman', serif;
+}
+
+.hero {
+    background-color: beige;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    font-family: 'Georgia', serif;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Product Page Styles */
+.product-list {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.product {
+    margin: 40px 0;
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+}
+
+.product h3 {
+    font-size: 1.8em;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
